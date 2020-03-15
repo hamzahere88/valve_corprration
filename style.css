@@ -57,3 +57,21 @@ nav ul li img {
   font-size: 22px;
   background-color: transparent;
 }
+
+/* main1 end */
+
+/* section2 start */
+.section2_main
+{
+    display: flex;
+    justify-content: center;
+
+}
+.section2
+{
+    width: 1180px;
+    display: flex;
+    background-color: tomato;
+    height: 1000px;
+    margin-top: 500px;
+}

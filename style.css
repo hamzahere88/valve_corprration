@@ -6,6 +6,7 @@
 body {
   font-family: "Lato", sans-serif;
   background-image: url("hero_03_fullsize.jpg");
+  /* background-repeat: round; */
 }
 /* header  */
 header {
@@ -61,17 +62,77 @@ nav ul li img {
 /* main1 end */
 
 /* section2 start */
-.section2_main
-{
-    display: flex;
-    justify-content: center;
+.section2_main {
+  display: flex;
+  justify-content: center;
+  height: 1950px;
+}
+/* section 2 content */
+.section2 {
+  width: 1180px;
+  display: flex;
+  
+  margin-top: 100px;
+  flex-direction: column;
+}
+/* section 2 heading */
+.section2 h1 {
+  font-size: 70px;
+  font-weight: 900;
+  color: #f74843;
+  margin-bottom: 50px;
+}
+/* footer start here */
+
+footer {
+  margin-top: 50px;
+  background-color: #f74843;
+  display: flex;
+  justify-content: space-evenly;
 
 }
-.section2
+.col1
 {
-    width: 1180px;
-    display: flex;
-    background-color: tomato;
-    height: 1000px;
-    margin-top: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.col1 p{
+  color: white;
+  font-size: 16px;
+}
+/* col2 */
+.col2
+{
+  display: flex;
+  justify-content: space-evenly;
+  width: 650px;
+  
+}
+
+.col3 ul{
+  display: flex;
+  list-style-type: none;
+  padding: 10px;
+}
+.col3 ul img{
+  width: 100px;
+}
+.col2_sub_col1
+{
+  display: flex;
+  flex-direction: column;
+}
+.col2_sub_col2
+{
+  display: flex;
+  flex-direction: column;
+}
+.col2_sub_col3
+{
+  display: flex;
+  flex-direction: column;
+}
+.col2_heading
+{
+  color: white;
 }
